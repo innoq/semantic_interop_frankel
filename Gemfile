@@ -13,4 +13,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :heroku do
+  gem 'pg'
+end
+
 gem 'jquery-rails'

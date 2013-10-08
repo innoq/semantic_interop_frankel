@@ -1,6 +1,9 @@
-Iqvoc.config do |config|
-  config.register_settings({
-    "title" => "Semantic Interop Frankel"
+Iqvoc.config do |cfg|
+  prefix = "languages.further_labelings."
+  cfg.register_settings({
+    "title" => "Semantic Interop Demo",
+    "available_languages" => ["de", "en"],
+    "languages.pref_labeling" => ["de", "en", "cn"]
   })
 end
 

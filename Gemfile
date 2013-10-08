@@ -6,7 +6,7 @@ gem 'iqvoc', github: 'innoq/iqvoc'
 gem 'iqvoc_skosxl', github: 'innoq/iqvoc_skosxl'
 
 group :development do
-  gem 'mysql2'
+  gem 'sqlite3'
 end
 
 group :assets do

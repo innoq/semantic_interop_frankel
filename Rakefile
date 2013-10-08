@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Semantic::Interop::Frankel::Application.load_tasks
+Iqvoc::SemanticInteropFrankel::Application.load_tasks

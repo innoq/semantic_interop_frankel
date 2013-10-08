@@ -3,6 +3,7 @@ ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 gem 'iqvoc', github: 'innoq/iqvoc'
+gem 'iqvoc_skosxl', github: 'innoq/iqvoc_skosxl'
 
 group :development do
   gem 'mysql2'

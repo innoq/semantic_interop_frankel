@@ -16,6 +16,7 @@ end
 
 group :heroku do
   gem 'pg'
+  gem 'passenger'
 end
 
 gem 'jquery-rails'
